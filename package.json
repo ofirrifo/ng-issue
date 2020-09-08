@@ -7,7 +7,6 @@
     "serve:app": "ng serve app-a --open --port=4400"
   },
   "private": true,
-
   "lint-staged": {
     "*.ts": [
       "./node_modules/.bin/prettier  --config ./.prettierrc --write",
